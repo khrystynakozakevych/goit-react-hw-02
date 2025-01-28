@@ -25,9 +25,7 @@ const App = () => {
     (prevValue, curValue) => prevValue + curValue
   );
 
-  const positiveFeedback = Math.round(
-    ((feedback.good + feedback.neutral) / totalFeedback) * 100
-  );
+  const positiveFeedback = Math.round((feedback.good / totalFeedback) * 100);
 
   const resetBtn = () => {
     setFeedback(feedbackData);
