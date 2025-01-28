@@ -1,0 +1,41 @@
+.btn_container {
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+button {
+  width: 70px;
+  height: 30px;
+  font-size: medium;
+  border: 1px solid #3c564b;
+  border-radius: 16px;
+  background-color: #cce3de;
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.1);
+  background-color: #a4c3b2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.good:hover,
+.good:focus {
+  background-color: #5b8e7d;
+  border-color: #036a48;
+}
+
+.neutral:hover,
+.neutral:focus {
+  background-color: #f4a259;
+  border-color: #d37522;
+}
+
+.bad:hover,
+.bad:focus {
+  background-color: #bc4b51;
+  border-color: #710107;
+}

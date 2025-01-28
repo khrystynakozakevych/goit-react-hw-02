@@ -1,0 +1,27 @@
+.descr_container {
+  padding-bottom: 15px;
+}
+
+.descr_container h1 {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.descr_container p {
+  font-size: 14px;
+  margin: auto;
+  max-width: 440px;
+}
+
+@media screen and (min-width: 455px) {
+  .descr_container h1 {
+    font-size: 50px;
+  }
+
+  .descr_container p {
+    font-size: 18px;
+  }
+}
